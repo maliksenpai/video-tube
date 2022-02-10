@@ -8,7 +8,7 @@ The purpose of this project is simply to learn MUI. In the application, videos f
 
 The app is mostly made for UI education only.
 
-##Screenshots
+## Screenshots
 
 <img src="https://github.com/maliksenpai/video-tube/blob/master/images/image-1.jpeg" width="300px" />
 <img src="https://github.com/maliksenpai/video-tube/blob/master/images/image-2.jpeg" width="300px" />
