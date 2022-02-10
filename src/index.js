@@ -3,11 +3,38 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {applyMiddleware, createStore} from "redux";
+import {MainReducer} from "./reducer/MainReducer";
+import {Provider} from "react-redux";
+import {BrowserRouter} from "react-router-dom";
+import {logger} from "redux-logger/src";
+import thunk from "redux-thunk";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import {StyledEngineProvider} from "@mui/styled-engine-sc";
+
+const store = createStore(
+    MainReducer,
+    applyMiddleware(logger, thunk)
+)
+
+const slice = createSlice({
+    name: 'video-tube',
+    initialState : [],
+    reducers:{
+        MainReducer
+    },
+})
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <React.Fragment>
+    <StyledEngineProvider injectFirst>
+        <Provider store={store}>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </Provider>
+    </StyledEngineProvider>
+  </React.Fragment>,
   document.getElementById('root')
 );
 

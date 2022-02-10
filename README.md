@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Video-tube
+
+The purpose of this project is simply to learn MUI. In the application, videos from Pexels' can be listed and watched.
+
+The app is mostly made for UI education only.
+
+##Screenshots
+
+<img src="https://github.com/maliksenpai/video-tube/blob/master/images/image-1.jpeg" width="300px" />
+<img src="https://github.com/maliksenpai/video-tube/blob/master/images/image-2.jpeg" width="300px" />
+
 ## Available Scripts
 
 In the project directory, you can run:

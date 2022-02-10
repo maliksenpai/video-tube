@@ -1,23 +1,19 @@
 import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import {BrowserRouter, Route, Router, Switch} from "react-router-dom";
+import MainPage from "./page/MainPage";
+import VideoDetailPage from "./page/VideoDetailPage";
+import getDataVideos from "./data/DataVideos";
+import {MainAppBar} from "./view/MainAppBar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <MainAppBar />
+        <Switch>
+            <Route exact path={"/"} component={MainPage} />
+            <Route path={"/video/:video"} component={(props) => <VideoDetailPage video={props.match.params.video} />} />
+        </Switch>
     </div>
   );
 }
