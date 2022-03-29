@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b894f09f.css",
-    "main.js": "/static/js/main.a8f8775a.js",
-    "static/js/787.98c415d3.chunk.js": "/static/js/787.98c415d3.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.b894f09f.css.map": "/static/css/main.b894f09f.css.map",
-    "main.a8f8775a.js.map": "/static/js/main.a8f8775a.js.map",
-    "787.98c415d3.chunk.js.map": "/static/js/787.98c415d3.chunk.js.map"
+    "main.css": "/video-tube/static/css/main.b894f09f.css",
+    "main.js": "/video-tube/static/js/main.f32a4a29.js",
+    "static/js/787.98c415d3.chunk.js": "/video-tube/static/js/787.98c415d3.chunk.js",
+    "static/media/logo.svg": "/video-tube/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/video-tube/index.html",
+    "main.b894f09f.css.map": "/video-tube/static/css/main.b894f09f.css.map",
+    "main.f32a4a29.js.map": "/video-tube/static/js/main.f32a4a29.js.map",
+    "787.98c415d3.chunk.js.map": "/video-tube/static/js/787.98c415d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b894f09f.css",
-    "static/js/main.a8f8775a.js"
+    "static/js/main.f32a4a29.js"
   ]
 }
